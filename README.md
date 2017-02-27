@@ -34,9 +34,11 @@ HTML, CSS, Bootstrap, JavaScript, and jQuery.
  * Input Example: Sweep, Laundry (clicked by user), Grocery Shopping
  * Output Example: Sweep, ~~Laundry~~, Grocery Shopping
 
-4. Program alerts user prior to removing the task.
- * Input Example: Sweep, Laundry (clicked by user), Grocery Shopping
- * Output Example: Alert: Laundry will be removed from your list.
+4. Program displays due date when entered.
+ * Input Example: Sweep, Oct. 12, 1980
+ * Output Example: Sweep, Oct. 12, 1980
+
+
 
 
 ## License

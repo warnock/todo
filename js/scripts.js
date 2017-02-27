@@ -8,5 +8,9 @@ $(document).ready(function() {
     var newTask = new ToDoList(inputtedTask);
     $("ul#taskAdded").append("<li>" + inputtedTask + "</li>");
     $("input#task").val("");
+
+    $("li").click(function() {
+      $("li").addClass("strikethrough");
+    });
   });
 });
