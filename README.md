@@ -30,9 +30,9 @@ HTML, CSS, Bootstrap, JavaScript, and jQuery.
  * Input Example: Sweep, Laundry, Grocery Shopping
  * Output Example: Sweep, Laundry, Grocery Shopping
 
-3. Program hides a task when it is clicked on by a user.
+3. Program strikes out a task when it is clicked on by a user.
  * Input Example: Sweep, Laundry (clicked by user), Grocery Shopping
- * Output Example: Sweep, Grocery Shopping
+ * Output Example: Sweep, ~~Laundry~~, Grocery Shopping
 
 4. Program alerts user prior to removing the task.
  * Input Example: Sweep, Laundry (clicked by user), Grocery Shopping

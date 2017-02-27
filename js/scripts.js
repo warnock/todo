@@ -1,9 +1,12 @@
-
-
+function ToDoList(task) {
+  this.task = task;
+}
 $(document).ready(function() {
-  $("form#new-contact").submit(function(event) {
+  $("form#newTask").submit(function(event) {
     event.preventDefault();
-    var inputtedTask = $("input#task1").val();
-    $("ul#completedTaskList").append("<li>" + inputtedTask + "</li>");
+    var inputtedTask = $("input#task").val();
+    var newTask = new ToDoList(inputtedTask);
+    $("ul#taskAdded").append("<li>" + inputtedTask + "</li>");
+    $("input#task").val("");
   });
 });
